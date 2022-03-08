@@ -1,0 +1,11 @@
+# Reading length of major axis
+major = float(input("Enter length of major axis: "))
+
+# Reading length of minor axis
+minor = float(input("Enter length of minor axis: "))
+
+# Calculating area of an ellipse
+area = 3.141592 * major * minor
+
+# Displaying result
+print("Area of an ellipse = ", area)
